@@ -1,0 +1,8 @@
+hr {
+    border: 1px solid rgb(84, 151, 219);
+    color: rgb(84, 151, 219);
+    background-color: #1976D2;
+    height: 1px;
+    width: 120px;
+    margin: 2% 55% 2% 45%;
+}

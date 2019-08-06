@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.nav a {
+    color: rgb(15, 14, 14);
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0 20px;
+
+}
+
+
+
+.nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 105, 207);
+}
