@@ -18,3 +18,13 @@
     padding-top: 1%;
 
 }
+
+.subtitle_header {
+
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    padding: 1%;
+}

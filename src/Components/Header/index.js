@@ -8,17 +8,23 @@ import Title from "../Title";
 class Header extends Component {
   render() {
     return (
-      <>
-        <Container cont="container_header">
-          <Container>
-            <img src={home} alt="plano_de_fundo_home" className="home" />
-            <Title title="title_header">Aplicativo para o seu negócio</Title>
-            <Subtitle>
-              Design, desenvolvimento de apps e aplicações web
-            </Subtitle>
+      <Container cont="container_header">
+        <img src={home} alt="plano_de_fundo_home" className="home" />
+        <Container cont="itens_header">
+          <Title title="title_header">Aplicativo para o seu negócio</Title>
+          <Subtitle subtitle="subtitle_header">
+            Design, desenvolvimento de apps e aplicações web
+          </Subtitle>
+          <Container cont="header_buttons">
+            <a class="button1" href="www.google.com">
+              Quero um aplicativo
+            </a>
+            <a class="button2" href="www.google.com">
+              Conheça a Gempe
+            </a>
           </Container>
         </Container>
-      </>
+      </Container>
     );
   }
 }

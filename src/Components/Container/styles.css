@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
 
 .container_navBar {
 
@@ -16,7 +17,7 @@
     font-weight: 400;
     background: #fff;
     z-index: 2;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 1em;
     line-height: 64px;
     text-size-adjust: 100%;
@@ -26,10 +27,36 @@
 
 .container_header {
 
+
+    object-fit: cover;
+    object-position: center;
     width: 100%;
     height: 725px;
+
 }
 
+.itens_header {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+}
+
+.header_buttons {
+
+    height: 20px;
+    width: 545px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 3% 0;
+    padding: 5%;
+}
 
 .container_about {
 
