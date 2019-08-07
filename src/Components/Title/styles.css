@@ -15,7 +15,8 @@
 .title_about {
 
     font-size: 3rem;
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Biryani',
+        sans-serif;
     font-weight: 900;
 
 
@@ -29,6 +30,7 @@
     text-align: center;
     letter-spacing: 1px;
     padding-top: 5%;
+    text-transform: uppercase;
 }
 
 .title_header {
@@ -40,4 +42,13 @@
     text-transform: uppercase;
     margin: 3% 0;
 
+}
+
+.title_sprint {
+
+    color: #4D616B;
+    font-size: 1.5em;
+    padding-bottom: 8%;
+    padding-top: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
 }

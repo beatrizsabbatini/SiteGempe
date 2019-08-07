@@ -5,6 +5,8 @@
     height: 725px;
     object-fit: cover;
     object-position: center;
+
+    position: relative;
 }
 
 #home {
@@ -14,6 +16,7 @@
     height: 725px;
     object-fit: cover;
     object-position: center;
+
 }
 
 .button1,

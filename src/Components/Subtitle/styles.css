@@ -17,6 +17,7 @@
     letter-spacing: 1px;
     padding-top: 1%;
 
+
 }
 
 .subtitle_header {
@@ -27,4 +28,14 @@
     letter-spacing: 1px;
     color: white;
     padding: 1%;
+}
+
+.subtitle_sprint,
+.subtitle_mvp,
+.subtitle_apps {
+
+    color: rgb(32, 35, 36);
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
 }

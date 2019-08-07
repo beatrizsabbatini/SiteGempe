@@ -1,20 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
-.nav a {
+.item {
     color: rgb(15, 14, 14);
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     letter-spacing: 1px;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 25px;
+    transition: 0.3s;
 
+
+}
+
+.orcamento {
+
+    color: rgb(15, 14, 14);
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 7.5px 16px;
+    margin: 5px;
+    border-radius: 25px;
+    transition: 0.3s;
+    border: 0.4px solid black;
 }
 
 
 
 .nav a:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(105, 105, 207);
+    background-color: rgb(70, 110, 170);
 }

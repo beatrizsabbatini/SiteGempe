@@ -10,10 +10,18 @@ const Navbar = () => {
       <Container cont="container_navBar">
         <Title title="logo">Gempe.</Title>
         <nav class="nav">
-          <a href="#services">o que fazemos</a>
-          <a href="#portfolio">portfolio</a>
-          <a href="#budget">orçamento</a>
-          <a href="#contact">contato</a>
+          <a className="item" href="#services">
+            o que fazemos
+          </a>
+          <a className="item" href="#portfolio">
+            portfolio
+          </a>
+          <a className="orcamento" href="#budget">
+            orçamento
+          </a>
+          <a className="item" href="#contact">
+            contato
+          </a>
         </nav>
       </Container>
     </>

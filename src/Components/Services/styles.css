@@ -6,3 +6,15 @@ hr {
     width: 120px;
     margin: 2% 55% 2% 45%;
 }
+
+.sprint,
+.mvp,
+.apps {
+
+
+    position: relative;
+    height: 20.5em;
+    width: auto;
+    padding: 2.5%;
+
+}

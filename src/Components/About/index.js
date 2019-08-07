@@ -9,7 +9,7 @@ class About extends Component {
     return (
       <>
         <Container cont="container_about">
-          <Title title="title_about">Somos experts em Apps</Title>
+          <Title title="title_about">Somos experts em apps</Title>
           <Subtitle subtitle="subtitle_about">
             Atuamos desde a ideia até a operação do seu produto
           </Subtitle>
