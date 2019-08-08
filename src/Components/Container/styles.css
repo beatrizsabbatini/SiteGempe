@@ -117,8 +117,22 @@
 
 .container_clients {
 
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: #701C63;
-    height: 845px;
+    height: 97vh;
     width: auto;
+    padding: 1% 0 0 0;
+}
+
+.container1_clients {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-left: 12%;
+    margin-top: 5%;
 }

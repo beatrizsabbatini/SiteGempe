@@ -56,10 +56,11 @@
 .title_clients {
 
 
-    font-family: 'Hammersmith One', serif;
+    font-family: 'Biryani', sans-serif;
     font-size: 3.2rem;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding: 0 0 5% 0;
 
 
 }

@@ -6,8 +6,7 @@ import Container from "../Container";
 
 const Cases = props => {
   return (
-    <Container className={props.container_case}>
-      {props.children}>
+    <Container cont="container_case">
       <Title className={props.title_case}>{props.children}</Title>
       <Subtitle className={props.subtitle_case}>{props.children}</Subtitle>
     </Container>
