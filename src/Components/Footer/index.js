@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-/*import git from '../Images/git.png';
-import facebook from '../Images/facebook.png';
-import instagram from '../Images/instagram.png';*/
 import "./styles.css";
+import Subtitle from "../Subtitle";
 
-class Portfolio extends Component {
+class Footer extends Component {
   render() {
-    return <></>;
+    return <Subtitle subtitle="footer">© 2018 Gempe Soluções em TI</Subtitle>;
   }
 }
 
-export default Portfolio;
+export default Footer;
