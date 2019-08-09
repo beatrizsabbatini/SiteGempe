@@ -1,21 +1,23 @@
-.button_budget {
+.button_seeMore {
 
-    background-color: #FFA726;
+    text-transform: uppercase;
+    background-color: transparent;
     padding: 1.2%;
     border-radius: 6px;
+    border: 1px solid white;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
     text-align: center;
-    width: 15vw;
+    width: 17vw;
     font-size: 1.1rem;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
 
 }
 
-.button_budget:hover {
+.line_seeMore {
 
-    box-shadow: 0 1.5px 2px 0 rgba(0, 0, 0, 0.5);
+    margin: 2% 50% 2% 50%;
+
 }

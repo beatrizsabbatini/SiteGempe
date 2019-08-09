@@ -12,7 +12,7 @@ class Services extends Component {
     return (
       <Container cont="container_services">
         <Title title="title_servicos">Nossos serviços</Title>
-        <hr />
+        <hr className="line_services" />
         <Subtitle subtitle="subtitle_services">
           {" "}
           Construímos negócios com potencial global

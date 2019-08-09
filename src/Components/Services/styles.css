@@ -1,4 +1,4 @@
-hr {
+.line_services {
     border: 1px solid rgb(84, 151, 219);
     color: rgb(84, 151, 219);
     background-color: #1976D2;
@@ -13,8 +13,8 @@ hr {
 
 
     position: relative;
-    height: 20.5em;
+    height: 19.5em;
     width: auto;
-    padding: 2.5%;
+
 
 }

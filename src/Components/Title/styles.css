@@ -64,3 +64,42 @@
 
 
 }
+
+.title_budget {
+
+    font-size: 3rem;
+    font-family: 'Biryani',
+        sans-serif;
+    font-weight: 900;
+    color: #424242;
+    text-transform: uppercase;
+
+}
+
+
+.title_seeMore {
+
+    font-size: 3rem;
+    font-family: 'Biryani',
+        sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 3vh;
+
+}
+
+.title_contact {
+
+    color: #616161;
+    font-family: 'Hammersmith One';
+    font-size: 1.6rem;
+
+}
+
+.title_contact2 {
+
+    color: #616161;
+    font-family: 'Hammersmith One';
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+}

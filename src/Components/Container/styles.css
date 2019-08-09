@@ -49,13 +49,13 @@
 .header_buttons {
 
     height: 20px;
-    width: 540px;
+    width: 33vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     margin: 3% 0;
-    padding: 5%;
+    padding: 2%;
 }
 
 .container_about {
@@ -88,10 +88,8 @@
 
     position: relative;
     padding: 3% 0;
-    margin-left: 1%;
-    width: 96%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -104,7 +102,7 @@
     box-shadow: inset 0 5px #3C80B9;
     position: absolute;
     top: 300px;
-    margin-left: 3%;
+    margin-left: 2.3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,15 +113,40 @@
     background-color: rgba(255, 255, 255, 0.959);
 }
 
-.container_clients {
+.container_clients1,
+.container_clients2,
+.container_clients3,
+.container_clients4 {
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #701C63;
     height: 97vh;
     width: auto;
     padding: 1% 0 0 0;
+}
+
+.container_clients1 {
+
+    background-color: #701C63;
+
+}
+
+.container_clients2 {
+
+    background-color: #1CB593;
+
+}
+
+.container_clients3 {
+
+    background-color: #6E9DEB;
+
+}
+
+.container_clients4 {
+
+    background-color: #F0CA00;
 }
 
 .container1_clients {
@@ -133,6 +156,74 @@
     align-items: center;
     height: auto;
     width: auto;
-    margin-left: 12%;
+    margin-left: 14%;
     margin-top: 5%;
+}
+
+.container_budget {
+
+    background-color: #ECEFF1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+
+.container_seeMore {
+
+    background-color: #263238;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.container_contact {
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 2% 10.5% 2% 7%;
+
+
+}
+
+.container_icones {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 13vw;
+    margin: 15% 0 0 1%;
+}
+
+.container_phone {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+}
+
+.container_contact2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_social {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

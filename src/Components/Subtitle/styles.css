@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+
+
 .subtitle_about {
 
     font-size: 1.2rem;
@@ -27,7 +29,7 @@
     font-weight: 500;
     letter-spacing: 1px;
     color: white;
-    padding: 1%;
+    padding-bottom: 4%;
 }
 
 .subtitle_sprint,
@@ -43,7 +45,6 @@
 .subtitle_clients {
 
     color: white;
-
     font-size: 1.2rem;
     font-weight: 200;
     font-family: 'Roboto', sans-serif;
@@ -58,4 +59,40 @@
     font-weight: 200;
     font-family: 'Roboto', sans-serif;
     padding-top: 3rem;
+
+
+}
+
+.subtitle_budget {
+
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    color: #424242;
+
+}
+
+.subtitle_contact {
+
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 0 0 0;
+    color: #757575;
+    width: 17vw;
+    line-height: 1.5;
+
+}
+
+.subtitle_contact2,
+.subtitle_contact3 {
+
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.2rem;
+    color: #757575;
+    text-align: center;
+
 }

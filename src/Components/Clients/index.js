@@ -10,6 +10,7 @@ import case4 from "../Images/motosinal-case.png";
 
 const ITENS_CASE = [
   {
+    container: "container_clients1",
     title_case: "Urpay",
     subtitle_case: "Conta Digital",
     subtitle2_case: "O QUE FIZEMOS",
@@ -19,6 +20,7 @@ const ITENS_CASE = [
     itens2: ["Android", "Web"]
   },
   {
+    container: "container_clients2",
     title_case: "Lacre 21",
     subtitle_case: "Marketplace para Cosméticos Lacre 21",
     subtitle2_case: "O QUE FIZEMOS",
@@ -28,6 +30,7 @@ const ITENS_CASE = [
     itens2: ["Web"]
   },
   {
+    container: "container_clients3",
     title_case: "Minnut",
     subtitle_case: "Encontre pessoas na mesma sintonia de pensamento",
     subtitle2_case: "O QUE FIZEMOS",
@@ -37,6 +40,7 @@ const ITENS_CASE = [
     itens2: ["Android", "iOS", "Web"]
   },
   {
+    container: "container_clients4",
     title_case: "Moto Sinal",
     subtitle_case: "Acione mototáxi e motoboy",
     subtitle2_case: "O QUE FIZEMOS",
@@ -52,7 +56,7 @@ const Clients = () => {
     <>
       {ITENS_CASE.map((menu, index) => (
         <>
-          <Container cont="container_clients" key={index}>
+          <Container cont={menu.container}>
             <Container cont="container1_clients">
               <Title title="title_clients" key={index}>
                 {menu.title_case}
