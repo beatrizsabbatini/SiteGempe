@@ -29,7 +29,7 @@
     margin: 5px;
     border-radius: 25px;
     transition: 0.3s;
-    border: 0.4px 0.7px solid black;
+    border: 0.4px solid black;
 }
 
 .item:nth-child(3n):hover {
