@@ -53,7 +53,7 @@ const ITENS_CASE = [
 
 const Clients = () => {
   return (
-    <>
+    <section id="portfolio">
       {ITENS_CASE.map((menu, index) => (
         <>
           <Container cont={menu.container}>
@@ -89,7 +89,7 @@ const Clients = () => {
           </Container>
         </>
       ))}
-    </>
+    </section>
   );
 };
 

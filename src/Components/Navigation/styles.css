@@ -14,9 +14,10 @@
     transition: 0.3s;
 
 
+
 }
 
-.budget {
+.item:nth-child(3n) {
 
     color: rgb(15, 14, 14);
     font-weight: 300;
@@ -28,12 +29,17 @@
     margin: 5px;
     border-radius: 25px;
     transition: 0.3s;
-    border: 0.4px solid black;
+    border: 0.4px 0.7px solid black;
 }
 
+.item:nth-child(3n):hover {
+    border: 0.4px solid rgb(70, 110, 170);
 
+
+}
 
 .nav a:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(70, 110, 170);
+
 }
