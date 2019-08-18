@@ -1,22 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import "./styles.css";
-import Title from "../Title";
 import Container from "../Container";
+import Title from "../Title";
 import Subtitle from "../Subtitle";
 
-class About extends Component {
-  render() {
-    return (
-      <>
-        <Container cont="container_about">
-          <Title title="title_about">Somos experts em apps</Title>
-          <Subtitle subtitle="subtitle_about">
-            Atuamos desde a ideia até a operação do seu produto
-          </Subtitle>
-        </Container>
-      </>
-    );
-  }
-}
+const About = ({ title_about, subtitle_about }) => {
+  return (
+    <Container cont="container_about">
+      <Title title="title_about">{title_about}</Title>
+      <Subtitle subtitle="subtitle_about">{subtitle_about}</Subtitle>
+    </Container>
+  );
+};
 
 export default About;
