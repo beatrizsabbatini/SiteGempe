@@ -18,8 +18,14 @@
     font-family: 'Biryani',
         sans-serif;
     font-weight: 900;
+}
 
-
+.title_about2 {
+    font-size: 3rem;
+    font-family: 'Biryani',
+        sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .title_servicos {

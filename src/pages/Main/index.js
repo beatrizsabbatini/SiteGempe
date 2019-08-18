@@ -3,13 +3,13 @@ import "./styles.css";
 import Navigation from "../../Components/Navigation";
 import Header from "../../Components/Header";
 import About from "../../Components/About";
-import About2 from "../../Components/About2";
 import Services from "../../Components/Services";
-import Clients from "../../Components/Clients";
+import Cases from "../../Components/Cases";
 import Budget from "../../Components/Budget";
 import SeeMore from "../../Components/SeeMore";
 import Contact from "../../Components/Contact";
 import Footer from "../../Components/Footer";
+import Teste from "../../Components/Teste";
 
 class Main extends Component {
   render() {
@@ -17,10 +17,16 @@ class Main extends Component {
       <>
         <Navigation />
         <Header />
-        <About />
+        <Teste
+          title_about="Somos experts em apps"
+          subtitle_about="Atuamos desde a ideia até a operação do seu produto."
+        />
         <Services />
-        <About2 />
-        <Clients />
+        <Teste
+          title_about="CONHEÇA NOSSOS CASES"
+          subtitle_about="Somos comprometidos a empoderar nossos atuais e futuros parceiros!"
+        />
+        <Cases />
         <Budget />
         <SeeMore />
         <Contact />
