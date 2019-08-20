@@ -41,7 +41,7 @@
 
 .title_header {
 
-    font-family: 'Hammersmith One', serif;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
     color: white;
@@ -117,5 +117,24 @@
         sans-serif;
     font-weight: 900;
 
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .title_header {
+        font-size: 1.7rem;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .title_about {
+
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
 
 }

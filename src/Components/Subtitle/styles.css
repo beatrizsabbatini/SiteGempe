@@ -115,3 +115,17 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .subtitle_header {
+        font-size: 0.8rem;
+    }
+
+    .subtitle_about {
+        font-size: 1rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+}
