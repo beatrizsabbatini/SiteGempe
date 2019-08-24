@@ -4,14 +4,9 @@ import Container from "../Container";
 import Title from "../Title";
 import Subtitle from "../Subtitle";
 
-const BoxServices = ({
-  images,
-  images_class,
-  title_sprint,
-  subtitle_sprint
-}) => {
+const BoxServices = ({ images, title_sprint, subtitle_sprint }) => {
   return (
-    <Container>
+    <Container cont="container_boxServices">
       <img src={images} className="sprint" alt="fundo"></img>
       <Container cont="container_sprint">
         <Title title="title_sprint">{title_sprint}</Title>
