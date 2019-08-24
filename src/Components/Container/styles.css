@@ -67,6 +67,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 4%;
+    background-color: white;
 }
 
 .container_services {
@@ -74,6 +75,7 @@
     background-color: #1976D2;
     width: 100%;
     height: auto;
+    margin-bottom: 190px;
 
 
 
@@ -197,6 +199,7 @@
     flex-direction: row;
     width: 100%;
     padding: 2% 10.5% 2% 7%;
+    background-color: white;
 
 
 }

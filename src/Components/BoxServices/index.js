@@ -17,9 +17,3 @@ const BoxServices = ({ images, title_sprint, subtitle_sprint }) => {
 };
 
 export default BoxServices;
-
-/*  <img src={sprint} alt="plano_de_fundo_home" className="sprint" />
-    <img src={mvp} alt="plano_de_fundo_home" className="sprint" />
-    <img src={apps} alt="plano_de_fundo_home" className="sprint" />
-
-    */
