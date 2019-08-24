@@ -102,20 +102,19 @@
 
 .container_sprint {
 
+    width: 365px;
+    height: auto;
     border-radius: 5px;
     box-shadow: inset 0 5px #3C80B9;
-    position: absolute;
-    top: 300px;
-    margin-left: 2.3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
-    width: 365px;
     padding: 1% 1% 3% 1%;
-    height: auto;
     background-color: rgba(255, 255, 255, 0.959);
+    margin-left: 45px;
+    margin-top: -40px;
+    z-index: 1;
 }
 
 .container_clients1,
@@ -246,8 +245,12 @@
 }
 
 .container_boxServices {
+
     height: 500px;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
