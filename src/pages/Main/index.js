@@ -9,6 +9,7 @@ import Budget from "../../Components/Budget";
 import SeeMore from "../../Components/SeeMore";
 import Contact from "../../Components/Contact";
 import Footer from "../../Components/Footer";
+import BoxServices from "../../Components/BoxServices";
 
 class Main extends Component {
   render() {
