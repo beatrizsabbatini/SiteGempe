@@ -19,24 +19,26 @@ class Services extends Component {
             {" "}
             Construímos negócios com potencial global
           </Subtitle>
-          <BoxServices
-            images="../../Assets/Images/design-sprint.jpg"
-            title_sprint="Design Sprint"
-            subtitle_sprint="Aplique a metodologia utilizada pela Google para criação de
+          <Container cont="servicos">
+            <BoxServices
+              images={sprint}
+              title_sprint="Design Sprint"
+              subtitle_sprint="Aplique a metodologia utilizada pela Google para criação de
          novos negócios através de design e teste com usuários."
-          ></BoxServices>
-          <BoxServices
-            images="../../Assets/Images/mvp.jpg"
-            title_sprint="MVP Express"
-            subtitle_sprint="Tenha o Mínimo Produto Viável para sua ideia em 4 semanas
+            ></BoxServices>
+            <BoxServices
+              images={mvp}
+              title_sprint="MVP Express"
+              subtitle_sprint="Tenha o Mínimo Produto Viável para sua ideia em 4 semanas
          contando com nosso time de experts."
-          ></BoxServices>
-          <BoxServices
-            images="../../Assets/Images/apps.jpg"
-            title_sprint="Aplicativos e PWAs"
-            subtitle_sprint="Desenvolvemos Progressive Web Apps, Aplicativos nativos e
+            ></BoxServices>
+            <BoxServices
+              images={apps}
+              title_sprint="Aplicativos e PWAs"
+              subtitle_sprint="Desenvolvemos Progressive Web Apps, Aplicativos nativos e
        híbridos para Android e iOS."
-          ></BoxServices>
+            ></BoxServices>
+          </Container>
         </Container>
       </section>
     );
