@@ -57,7 +57,7 @@ const Clients = () => {
       {ITENS_CASE.map((menu, index) => (
         <>
           <Container cont={menu.container}>
-            <Container cont="container1_clients">
+            <Container cont="container_clients">
               <Title title="title_clients" key={index}>
                 {menu.title_case}
               </Title>
