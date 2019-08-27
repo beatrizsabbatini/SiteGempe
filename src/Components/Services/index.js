@@ -13,12 +13,14 @@ class Services extends Component {
     return (
       <section id="services">
         <Container cont="container_services">
+          <Container>
           <Title title="title_servicos">Nossos serviços</Title>
           <hr className="line_services" />
           <Subtitle subtitle="subtitle_services">
             {" "}
             Construímos negócios com potencial global
           </Subtitle>
+          </Container>
           <Container cont="servicos">
             <BoxServices
               images={sprint}

@@ -13,7 +13,7 @@
     top: 0;
     width: 100%;
     padding-right: 2%;
-    padding-left: 6%;
+    padding-left: 5%;
     font-weight: 400;
     background: #fff;
     z-index: 2;
@@ -27,7 +27,7 @@
 
 .container_header {
 
-    margin-top: 50px;
+    margin-top: 5px;
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -72,9 +72,14 @@
 
 .container_services {
 
+    align-items: center;
     background-color: #1976D2;
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .container_header {
@@ -89,8 +94,8 @@
 .servicos {
 
     position: relative;
-    padding: 3% 0;
-    width: 100%;
+    padding: 0 0 3% 0;
+    width: 95%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -102,7 +107,8 @@
 
 .container_sprint {
 
-    width: 365px;
+    width: 330px;
+    text-align: center;
     height: auto;
     border-radius: 5px;
     box-shadow: inset 0 5px #3C80B9;
@@ -112,7 +118,7 @@
     align-items: center;
     padding: 1% 1% 3% 1%;
     background-color: rgba(255, 255, 255, 0.959);
-    margin-left: 45px;
+    margin-left: 30px;
     margin-top: -40px;
     z-index: 1;
 }
@@ -127,7 +133,7 @@
     justify-content: space-between;
     height: 97vh;
     width: auto;
-    padding: 1% 0 0 0;
+    padding: 1% 1% 0 0;
 }
 
 .container_clients1 {
@@ -158,9 +164,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
-    width: auto;
-    margin-left: 14%;
+    width: 100%;
+    height: auto; 
+    margin-left: 13%;
     margin-top: 5%;
 }
 
@@ -202,11 +208,11 @@
 .container_icones {
 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 13vw;
+    width: 14vw;
     margin: 15% 0 0 1%;
 }
 
@@ -254,16 +260,62 @@
 
 }
 
+.item_cases{
+
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.itens_clients{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.container_oquefizemos{
+    width: auto;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+   
+    color: rgb(0, 0, 0);
+    
+}
+
+.container_disponivelpara{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media (max-width: 430px){
+
+    .container_sprint {
+
+        width: 230px;
+    }
+
+    .container_boxServices{
+
+        padding-top:15px;
+        height: 400px;
+        width: auto;
+        justify-content: center;
+    }
+
+  
+}
+
+
 @media only screen and (max-width: 700px) {
 
-    .container_clients1,
-    .container_clients2,
-    .container_clients3,
-    .container_clients4 {
-
-        display: flex;
-        flex-direction: column;
-    }
+    
 
     .container_navBar {
 
@@ -287,4 +339,69 @@
         padding: 10%;
     }
 
+}
+
+@media (max-width: 1000px){
+
+    .container_contact {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container_icones{
+
+        width: auto;
+        flex-direction: row;
+    }
+
+    .container_social{
+
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 300px){
+
+    .container_icones{
+
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width: 1085px){
+
+    .container_clients1,
+    .container_clients2,
+    .container_clients3,
+    .container_clients4 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: -3px;
+        
+    }
+}
+
+@media (max-width: 1090px){
+
+    .container_clients1,
+    .container_clients2,
+    .container_clients3,
+    .container_clients4 {
+    padding: 0 0 0 0;
+    }
+
+    .container_clients{
+
+        margin: 0 0 0 0;
+    }
 }

@@ -4,6 +4,10 @@
     background-color: black;
 }
 
+
+
+
+
 hr {
     border: 0.6px solid rgba(255, 255, 255, 0.479);
     color: rgba(255, 255, 255, 0.534);
@@ -20,10 +24,43 @@ p {
 
 }
 
+.item1{
+    background-color:white;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: rgb(46, 46, 46);
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item2{
+    
+   
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
 .img_clients {
 
-    height: 97vh;
+    max-height: 97vh;
+    max-width: auto;
     width: auto;
+    height: auto;
 }
 
 .Android {
@@ -31,13 +68,61 @@ p {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1250px) {
 
 
-    .img_clients {
-
-        height: 40vh;
-        width: auto;
+    .item1{
+       
+        font-size: 0.65rem;
+        
+    }
+    
+    .item2{
+        
+      
+        font-size: 0.65rem;
+        
     }
 
+}
+
+
+@media screen and (max-width: 1250px) {
+    .img_clients {
+         height: 75vh;
+         width: auto;
+         margin-top:155px;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .img_clients {
+         height: 75vh;
+         width: auto;
+         margin-top:0px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .img_clients {
+         height: 35vh;
+         width: auto;
+         margin-top:0px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .img_clients {
+         height: 25vh;
+         width: auto;
+         margin-top:0px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .img_clients {
+         height: 15vh;
+         width: auto;
+         margin-top:0px;
+    }
 }

@@ -55,7 +55,7 @@ const Clients = () => {
   return (
     <section id="portfolio">
       {ITENS_CASE.map((menu, index) => (
-        <>
+        
           <Container cont={menu.container}>
             <Container cont="container_clients">
               <Title title="title_clients" key={index}>
@@ -68,29 +68,36 @@ const Clients = () => {
                 {menu.subtitle2_case}
               </Subtitle>
               <hr />
-              <Container cont="container_oquefizemos">
-                <p className="item" key={index}>
-                  {menu.itens}
-                </p>
+              <Container cont="container_oquefizemos" >
+
+                {menu.itens.map(item => <p key={index} className="item1">{item}</p>)}
+
               </Container>
+              
               <Subtitle subtitle="subtitle2_clients" key={index}>
                 {menu.subtitle3_case}
               </Subtitle>
               <hr />
               <Container cont="container_disponivelpara">
-                <p className="item2" key={index}>
-                  {menu.itens2}
-                </p>
+                
+              {menu.itens2.map(item => <p key={index} className="item2">{item}</p>)}
+
               </Container>
             </Container>
             <Container cont="container_imgClients">
               <img className="img_clients" src={menu.img} alt="img" />
             </Container>
           </Container>
-        </>
+        
       ))}
     </section>
   );
 };
 
+
 export default Clients;
+
+/*
+              */
+
+               

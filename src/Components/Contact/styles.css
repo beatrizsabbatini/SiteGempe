@@ -28,3 +28,13 @@
     width: 95px;
     margin: 11% 55% 18% 45%;
 }
+
+@media (max-width: 430px){
+
+    .hr {
+        
+        width: 80px;
+        margin: 11% 50% 18% 50%;
+    }
+
+}

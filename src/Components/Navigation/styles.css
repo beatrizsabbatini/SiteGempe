@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
+.logoGempe{
+
+    padding:5px 0 0 0;
+    height: 135px;
+    width: auto;
+
+}
+
 .item {
     color: rgb(15, 14, 14);
     font-weight: 300;
@@ -29,7 +37,7 @@
     margin: 5px;
     border-radius: 25px;
     transition: 0.3s;
-    border: 0.4px solid rgba(46, 46, 46, 0.897);
+    border: 0.5px solid rgba(46, 46, 46, 0.897);
 }
 
 .item:nth-child(3n):hover {
